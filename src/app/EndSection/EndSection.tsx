@@ -8,7 +8,7 @@ const EndSection = () => {
         <div className={s.text}>
           <p>З нетерпінням чекаємо цього дня!</p>
           <p>До зустрічі!</p>
-          <img src='/images/Vector.png' alt='images' className={s.icon} />
+          <img src='/images/Vector.svg' alt='images' className={s.icon} />
         </div>
       </div>
     </section>

@@ -17,7 +17,7 @@ const InviteSection = ({ title, src }: IInviteSection) => {
             Запрошуємо Вас розділити з нами дуже важливу і радісну подію - наше весілля
           </p>
           <div className={s.images}>
-            <img src='/images/Vector.png' alt='images' className={s.icon} />
+            <img src='/images/Vector.svg' alt='images' className={s.icon} />
             <img src={src} alt='images' className={s.image} />
           </div>
         </div>
