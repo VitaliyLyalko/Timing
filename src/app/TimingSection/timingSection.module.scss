@@ -1,0 +1,50 @@
+.all {
+  background-color: #fdeaec;
+  width: 253px;
+  height: 345px;
+  border-radius: 130px;
+  margin: 0 auto;
+}
+.title {
+  font-family: var(--fontFamilyClickerScript);
+  font-size: 50px;
+  line-height: 66px;
+  text-align: center;
+  padding-top: 15px;
+}
+.timings {
+  display: flex;
+  //justify-content: center;
+  position: relative;
+  right: 25px;
+  padding: 10px 25px 65px 45px;
+}
+.timings1 {
+  flex: 0 0 50%;
+  //border-right: 1px solid #000;
+  text-align: right;
+  //padding: 0 15px 0 0;
+}
+.timings2 {
+  flex: 0 0 50%;
+  text-align: left;
+  padding: 0 0 0 15px;
+}
+.timingsClock {
+  font-family: var(--fontFamilyCormorant);
+  font-size: 22px;
+  line-height: 26.6px;
+  padding-top: 0px;
+}
+.timingsClock:after {
+  content: '.';
+  padding: 0 0 0 15px;
+  position: relative;
+  top: -4px;
+}
+.timingsName {
+  font-family: var(--fontFamilyCormorant);
+  font-size: 22px;
+  line-height: 26.6px;
+  padding-top: 0px;
+}

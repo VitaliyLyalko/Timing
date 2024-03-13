@@ -1,0 +1,26 @@
+.all {
+}
+.title {
+  font-family: var(--fontFamilyClickerScript);
+  font-size: 50px;
+  line-height: 66px;
+  text-align: center;
+  padding-top: 50px;
+}
+.text {
+  padding: 10px 45px 0 45px;
+  font-family: var(--fontFamilyCormorant);
+  font-size: 20px;
+  line-height: 24.2px;
+  text-align: center;
+}
+.colorsItem {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 80px 0px 80px;
+}
+.colorItem {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}

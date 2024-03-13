@@ -1,0 +1,45 @@
+.all {
+}
+.image {
+  padding-top: 15px;
+  width: 100%;
+  max-height: calc(188 * (1184 / 375));
+}
+.text1 {
+  font-family: var(--fontFamilyCormorant);
+  font-size: 20px;
+  line-height: 24.2px;
+  text-align: center;
+  padding: 50px 20px 0 20px;
+}
+.text2 {
+  font-family: var(--fontFamilyCormorant);
+  font-size: 20px;
+  line-height: 24.2px;
+  text-align: center;
+  padding: 15px 20px 30px 20px;
+}
+.button {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.button a {
+  width: 100%;
+  text-align: center;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #737171;
+  color: white;
+  font-size: 16px;
+  line-height: 19.5px;
+  font-weight: 400;
+  font-family: var(--fontFamilyMontserrat);
+}
+
+.button a:active {
+  color: red;
+}
